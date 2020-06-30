@@ -5,7 +5,7 @@ end
 end
 
 def list_dwarves(array)
- array.each_with_index |index, strings|
+ array.each_with_index do |index, strings|
     puts "#{index}.#{strings}"
 end
 end
